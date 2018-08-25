@@ -12,13 +12,15 @@ Install from PyPI::
 
     pip install django-sqlprint-middleware
 
-then add it to the `MIDDLEWARE_CLASSES` settings in your `settings.py` file::
+then add it to the `MIDDLEWARE` settings in your `settings.py` file::
 
-    MIDDLEWARE_CLASSES = (
+    MIDDLEWARE = (
         ...
         'django_sqlprint_middleware.SqlPrintMiddleware',
         ...
     )
+
+(Use `MIDDLEWARE_CLASSES` in older Djangos.)
 
 This middleware is not order sensitive so you can put it at any position in
 the list of classes.

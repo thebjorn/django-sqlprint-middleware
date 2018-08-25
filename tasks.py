@@ -48,6 +48,9 @@ ns = Collection(
 )
 ns.configure({
     'pkg': Package(),
+    'versionfiles': [
+        'django_sqlprint_middleware/__init__.py',
+    ],
     'run': {
         'echo': True
     }

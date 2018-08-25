@@ -46,6 +46,6 @@ SQLPRINT_MIN_QUERIES
     querires are printed (default is zero).
 
 """
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 
 from .django_sqlprint_middleware import SqlPrintMiddleware
