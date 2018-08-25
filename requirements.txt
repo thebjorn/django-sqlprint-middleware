@@ -1,0 +1,8 @@
+# install requirements
+pygments-pprint-sql
+Django
+
+# dev requirements
+dkfileutils
+dk-tasklib
+invoke
