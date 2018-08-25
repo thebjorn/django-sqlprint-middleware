@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.idea/dictionaries/
+.idea/django-sqlprint-middleware.iml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vagrant.xml
+.idea/workspace.xml

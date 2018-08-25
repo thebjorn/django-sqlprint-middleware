@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""django-sqlprint-middleware
+"""django-sqlprint-middleware - Pretty print Django's SQL statments
 """
 import io
 
@@ -23,16 +23,17 @@ setup(
     license='MIT',
     author='bjorn',
     author_email='bp@datakortet.no',
-    description='Display module dependencies',
+    description="Pretty print Django's SQL statments",
     classifiers=[
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules',
+        'Framework :: Django',
     ]
 )
