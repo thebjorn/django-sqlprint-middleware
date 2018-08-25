@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
+try:
+    from django.utils.deprecation import MiddlewareMixin as Parent
+except ImportError:
+    Parent = object
+
 import textwrap
 
 from django.conf import settings
@@ -8,7 +13,7 @@ from pygments import highlight, lexers, formatters
 from pygments_pprint_sql import SqlFilter
 
 
-class SqlPrintMiddleware(object):
+class SqlPrintMiddleware(Parent):
     """Output the sql used in the view.
     """
     def process_response(self, request, response):
