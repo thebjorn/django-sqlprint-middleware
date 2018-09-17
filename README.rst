@@ -45,4 +45,4 @@ SQLPRINT_MAX_QUERIES
 
 SQLPRINT_MIN_QUERIES
     For less output you can set this to the number of queries a view can make before
-    querires are printed (default is zero).
+    queries are printed (default is zero).
