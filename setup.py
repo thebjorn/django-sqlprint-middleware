@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""django-sqlprint-middleware - Pretty print Django's SQL statments
+"""django-sqlprint-middleware - pretty-print Django's SQL statments.
 """
 import io
 

@@ -6,6 +6,8 @@ django-sqlprint-middleware
 
 Middleware that pretty prints Django's sql statements.
 
+.. image:: https://raw.githubusercontent.com/thebjorn/django-sqlprint-middleware/master/docs/_static/sample-output.png
+
 Installation
 ------------
 Install from PyPI::
