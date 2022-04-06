@@ -1,0 +1,10 @@
+_schema: https://static.datakortet.no/schema/dkbuild.schema.yaml
+
+package:
+  name: django-sqlprint-middleware
+  description: Pretty print Django's SQL statments
+  version: 0.1.4
+  created: 2018
+
+build:
+  venv: django-sqlprint-middleware
