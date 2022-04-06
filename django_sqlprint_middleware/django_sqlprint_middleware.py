@@ -53,9 +53,9 @@ class SqlPrintMiddleware(Parent):
 
         totsecs = 0.0
         for query in queries:
-            print(query['time'], 'used on:')
+            print(query['time'], 'seconds used on:')
             totsecs += float(query['time'])
             print(highlight(query['sql'], lexer, formatters.TerminalFormatter()))
 
         print('Number of queries:', len(queries))
-        print('Total time:', totsecs)
+        print('Total time:', totsecs, 'seconds')
